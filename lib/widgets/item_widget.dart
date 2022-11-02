@@ -29,7 +29,7 @@ class ItemWidget extends StatelessWidget {
               children: [
                 InkWell(
                   onTap: () {
-                    // Navigator.push(context, "singleItemPage");
+                    Navigator.pushNamed(context, "singleItemPage");
                   },
                   child: Container(
                     margin: EdgeInsets.all(10),

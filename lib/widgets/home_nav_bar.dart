@@ -34,7 +34,14 @@ class HomeNavBar extends StatelessWidget {
           padding: EdgeInsets.all(15),
           decoration: BoxDecoration(
             color: Color(0xffefb322),
-            borderRadius: BorderRadius.circular(30)
+            borderRadius: BorderRadius.circular(30),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.white10.withOpacity(0.4),
+                spreadRadius:1,
+                blurRadius: 6
+              )
+            ]
           ),
           child: Icon(
             CupertinoIcons.cart_fill,
